@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <h1 id="title">CALCULATOR</h1>
+   <div class="main">
+      <div class="submain">
+        <input type="text" placeholder="0" id="input-text">
+        <div class="grid-container">
+            <div class="grid-item"><button class="btn" onclick="func('7')">7</button></div>
+            <div class="grid-item"><button class="btn" onclick="func('8')">8</button></div>
+            <div class="grid-item"><button class="btn" onclick="func('9')">9</button></div>
+            <div class="grid-item"><button class="operator" onclick="func('*')">*</button></div>
+            <div class="grid-item"><button class="btn" onclick="func('4')">4</button></div>
+            <div class="grid-item"><button class="btn" onclick="func('5')">5</button></div>
+            <div class="grid-item"><button class="btn" onclick="func('6')">6</button></div>
+            <div class="grid-item"><button  onclick="func('-')" class="operator">-</button></div>
+            <div class="grid-item"><button class="btn"  onclick="func('1')">1</button></div>
+            <div class="grid-item"><button class="btn" onclick="func('2')">2</button></div>
+            <div class="grid-item"><button class="btn" onclick="func('3')">3</button></div>
+            <div class="grid-item"><button  onclick="func('+')" class="operator">+</button></div>
+            <div class="grid-item"><button class="btn" onclick="func('0')">0</button></div>
+            <div class="grid-item"><button  onclick="reset()" class="operator">AC</button></div>
+            <div class="grid-item"><button class="eqlbtn" onclick="equal()">=</button></div>
+            <div class="grid-item"><button onclick="func('/')" class="operator">/</button></div>
+          </div>
+      </div>
+   </div>
+  <script src="app.js" ></script>
+</body>
+</html>
