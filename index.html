@@ -3,34 +3,112 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Calculator</title>
-    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="style.css" />
+    <title>PORTFOLIO</title>
 </head>
 <body>
-    <h1 id="title">CALCULATOR</h1>
-   <div class="main">
-      <div class="submain">
-        <input type="text" placeholder="0" id="input-text">
-        <div class="grid-container">
-            <div class="grid-item"><button class="btn" onclick="func('7')">7</button></div>
-            <div class="grid-item"><button class="btn" onclick="func('8')">8</button></div>
-            <div class="grid-item"><button class="btn" onclick="func('9')">9</button></div>
-            <div class="grid-item"><button class="operator" onclick="func('*')">*</button></div>
-            <div class="grid-item"><button class="btn" onclick="func('4')">4</button></div>
-            <div class="grid-item"><button class="btn" onclick="func('5')">5</button></div>
-            <div class="grid-item"><button class="btn" onclick="func('6')">6</button></div>
-            <div class="grid-item"><button  onclick="func('-')" class="operator">-</button></div>
-            <div class="grid-item"><button class="btn"  onclick="func('1')">1</button></div>
-            <div class="grid-item"><button class="btn" onclick="func('2')">2</button></div>
-            <div class="grid-item"><button class="btn" onclick="func('3')">3</button></div>
-            <div class="grid-item"><button  onclick="func('+')" class="operator">+</button></div>
-            <div class="grid-item"><button class="btn" onclick="func('0')">0</button></div>
-            <div class="grid-item"><button  onclick="reset()" class="operator">AC</button></div>
-            <div class="grid-item"><button class="eqlbtn" onclick="equal()">=</button></div>
-            <div class="grid-item"><button onclick="func('/')" class="operator">/</button></div>
-          </div>
-      </div>
-   </div>
-  <script src="app.js" ></script>
+    <header class="head">
+        <div class="heading">
+            <div class="heading-1"><h1>
+                <span class="name">Hi,</span>I am SUZAIN ALI
+            </h1></div>
+            <div class="heading-2"><h3>Computer Science Engineer</h3>
+            </div>
+        </div>
+    </header>
+    <section class="sec-1">
+        <div class="sec-1-main">
+            <div class="hero-sec-2">
+                <h2 class="about">About Me</h2>
+                <p class="about-para">A motivated individual with in-depth knowledge of languages and development tools, seeking a position in a growth oriented company here I can use my skills to the advantage of the company while having the scope to develop my own skills. </p>
+                <div class="download"><a href="Suzain Resume.docx" target="_blank"><button class="btn">Resume</button></a></div>
+            </div>   
+            <div class="photo-2">
+                <img src="myphoto1.jpeg">
+            </div>
+        </div>
+    </section>
+    <section class="sec-2">
+        <div class="div1"><h3>My Projects</h3></div>
+        <div class="section-3">
+            <div class="grid-item">
+                <div class="card">
+                    <div class="content">
+                        <h3>Unit Convertor</h3>
+                        <p>A unit converter application using Python's Tkinter for GUI, allowing users to convert between different units such as length and temperature.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="grid-item">
+                <div class="card">
+                    <div class="content">
+                        <h3>Calculator</h3>
+                        <p>A calculator built with HTML for structure, CSS for styling, and JavaScript for interactive functions like arithmetic operations and input handling.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="grid-item">
+                <div class="card">
+                    <div class="content">
+                        <h3>Landing Page</h3>
+                        <p>A landing page designed with HTML for content structure and CSS for styling, focusing on introducing a product or service effectively.</p>
+                    </div>
+                </div>
+            </div>   
+        </div>
+    </section>
+    <section class="sec-3">
+        <div class="skills"><h3>My Skills</h3></div>
+        <div class="types">
+            <div class="technical">
+                <ul>
+                    <h3>Technical skills</h3>
+                    <li >HTML <span ><progress value="80" max="100"></progress></span></li>
+                    <li >CSS <span><progress value="70" max="100"></progress></li>
+                    <li >SQL <span><progress value="60" max="100"></progress></li>
+                    <li >Python <span><progress value="50" max="100"></progress></li>
+                    <li >Javascript <span><progress value="30" max="100"></progress></li>    
+                </ul>
+            </div>
+            <div class="other">
+              <ul>
+                <h3>Other Skills</h3>
+                <li>Problem Solving Skills</li>
+                <li>Analytical Skills</li>
+                <li>Communication Skills</li>
+                <li>Decision Making Skills</li>
+                <li>Leadership</li>
+              </ul>
+            </div>
+        </div>
+    </section>
+    <section class="sec-4">
+        <h3 class="sec-heading">Contact Info</h3>
+        <div class="centre-div">
+            <a href="#" class="atag">
+                suzainali3001@gmail.com
+            </a>
+            <a href="#" class="atag">
+                +916390507613
+            </a>
+        </div>
+    </section>
+    <footer class="foot">
+        <div class="centre-div">
+            <a href="https://www.instagram.com/suzain.ali_27/?next=%2F" class="atag" target="_blank">
+                Instagram
+            </a>
+            <a href=" https://x.com/NishaNoor2000?t=77ZKT2KcpEa8qiubFolB_Q&s=09" class="atag" target="_blank">
+                Twitter
+            </a>
+            <a href="https://www.linkedin.com/in/suzain-ali-54b3652a1/" class="atag" target="_blank">
+                LinkedIn
+            </a>
+            <a href="https://github.com/Suzain-Ali" class="atag" target="_blank">
+                Github
+            </a>
+        </div>
+        <p class="foot-para">Copyright @2022, Designed by Suzain</p>
+    </footer>
 </body>
 </html>
